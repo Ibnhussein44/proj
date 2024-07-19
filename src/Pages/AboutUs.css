@@ -1,0 +1,138 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    /* background-image: url('../image/booklogo.webp'); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.about-us {
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    width: 170px;
+    margin-bottom: 10px;
+    border-radius: 1000px;
+}
+.about-us .logo {
+    background-image: url('../image/booklogo.webp'); /* Adjust the path based on the actual location */
+    /* other styles */
+  }
+  
+/* 
+.same-class {
+        background-image: url('../public/booklogo.webp');  /*Adjust the path based on the actual location */
+    
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.return-home p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.return-home a {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer {
+    background: rgb(248, 202, 192);
+    clear: both;
+    width: 100%;
+    padding: 1px 0;
+    padding-top: 1px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+
+.footer h3 {
+    margin-bottom: 0%;
+    padding: 5px;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer2,
+.footer3 {
+    width: 45%;
+    margin: 10px;
+}
+
+.footer2 {
+    text-align: left;
+}
+
+.footer3 form {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.footer3 input,
+.footer3 textarea {
+    width: calc(80% - 12px);
+    margin-bottom: 8px;
+    border: 1px solid rgb(233, 141, 75);
+    padding: 5px;
+    color: black;
+    font-size: 16px;
+}
+
+.footer3 button {
+    background: #14f745;
+    color: white;
+    padding: 10px;
+    height: 32px;
+    border: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer3 button:hover {
+    color: #d9f0bb;
+}
+
+.icon {
+    margin-right: 10px;
+    block-size: 0.7cm;
+    color: hwb(15 8% 3%);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #c6e69c;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
